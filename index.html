@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="js/app.js" defer type="module"></script>
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Suche nach:" autocomplete="off">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city"></h2>
+            <h1 class="temp"></h1>
+            <div class="flex-box">
+                <img src="" alt="" class="icon">
+                <div class="description"></div>
+            </div>
+            <div class="humidity"></div>
+            <div class="windspeed"></div>
+
+            <!-- SonnenAufgang UnterGang -->
+            <div class="sunwrapper">
+            <div class="sunrise"><i class="fa-solid fa-sun"></i><span id="sunrise"></span></div>
+            <div class="sunset"><i class="fa-solid fa-moon"></i><span id="sunset"></span></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="forecast-card-wrapper">
+        <!-- <div class="forecast-card">
+            <h1 class="day">Tag</h1>
+            <h2 class="temp">51&#176; C</h1>
+            <img src="" alt="" class="icon"><i class="fa fa-cloud"></i>
+        </div>
+        <div class="forecast-card">
+            <h1 class="day">Tag</h1>
+            <h2 class="temp">51&#176; C</h1>
+            <img src="" alt="" class="icon"><i class="fa fa-cloud"></i>
+        </div>
+        <div class="forecast-card">
+            <h1 class="day">Tag</h1>
+            <h2 class="temp">51&#176; C</h1>
+            <img src="" alt="" class="icon"><i class="fa fa-cloud"></i>
+        </div>
+        <div class="forecast-card">
+            <h1 class="day">Tag</h1>
+            <h2 class="temp">51&#176; C</h1>
+            <img src="" alt="" class="icon"><i class="fa fa-cloud"></i>
+        </div>
+        <div class="forecast-card">
+            <h1 class="day">Tag</h1>
+            <h2 class="temp">51&#176; C</h1>
+            <img src="" alt="" class="icon"><i class="fa fa-cloud"></i>
+        </div> -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
